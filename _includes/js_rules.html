@@ -293,6 +293,19 @@
         {% highlight javascript %}{% include javascripts/for_in.js %}{% endhighlight %}
     </div>
 </div>
+<div class="section" id="js-literal">
+    <div class="col">
+        <h3>Array 和 Object 字面量</h3>
+        <p>使用 Array 和 Object 语法, 而不使用 Array 和 Object 构造器。</p>
+        <p>使用 Array 构造器很容易因为传参不恰当导致错误。</p>
+        <p>如果传入一个参数而不是2个参数, 数组的长度很有可能就不是你期望的数值了。</p>
+        <p>为了避免这些歧义, 我们应该使用更易读的字面量来声明。</p>
+        <p>虽然 Object 构造器没有上述类似的问题, 但鉴于可读性和一致性考虑, 最好还是在字面上更清晰地指明。</p>
+    </div>
+    <div class="col">
+        {% highlight javascript %}{% include javascripts/literal.js %}{% endhighlight %}
+    </div>
+</div>
 <div class="section" id="js-miscellaneous">
     <div class="col">
         <h3>杂项</h3>
